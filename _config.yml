@@ -1,0 +1,224 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Vlad Olaru
+title: Software Engineer
+email: vladutandrei.olaru@gmail.com
+# email_title: Email (Email title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+github_username:  Vlad-Olaru
+linkedin_username: Vlad Olaru
+
+additional_links:
+- title: Pdf Download
+  icon: fa fa-file-pdf
+  url: https://github.com/Vlad-Olaru/CV/raw/main/assets/cv.pdf
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: |
+  I am an enthusiastic, young programmer who is passionate for this line of work. During the time I have been working as a
+  programmer, I have developed new skills and abilities, made new friends and learned a lot about myself. A fast-learner, eager to
+  learn even more and improve myself, I enjoy most of the life of a programmer. What I love most is actually seeing the project
+  develop into a running application and seeing all your work taking a concrete shape, moving, functioning as intended.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Ammeon/Intive
+        sub_title: Software Engineer
+        caption: July 2021 - Present
+        link: https://intive.com/
+        description: |
+          Worked as a full-stack developer, in a team of ~7 developers, building on and maintaining
+          a huge portal application which integrates lots of different systems. Main technologies:
+          
+          - Kotlin, Spring boot
+          - Angular
+      - layout: left
+        border: weak
+        title: Connections Technologies
+        sub_title: Technical Team Lead
+        caption: July 2020 - June 2021
+        link: https://connectionsconsult.ro
+        description: |
+          Coordinating the team to deliver the applications that the customer needs using Agile methodologies, doing my best to get some
+          coding done as well during the day.
+
+          The main projects I have been focusing on are:
+          
+          - Delivering a big microservices projects for a telecommunications company that handles several business flows, integrating
+          the new microservices and platform with their existing ecosystem
+          - A marketplace platform which we built from scratch based on the needs of people that are direct clients
+      - layout: left
+        border: weak
+        title: Connections Technologies
+        sub_title: Full-Stack Software Developer
+        caption: May 2019 - July 2020
+        link: https://connectionsconsult.ro
+        description: |
+          Working on different applications either in a team or by myself as a full-stack developer:
+          - platform for a telecommunications company that handles different business flows using Java, Spring, Angular and a
+          microservices architecture
+          - facility management platform that handles ticketing cases, written in Kotlin, Spring, Angular
+          - oauth2 server and endpoints to allow clients to more easily integrate with the romanian banks that have exposed their
+          APIs based on the the PSD2 standard
+          - an app for the government, which managed city hall's organization flows and helped schools receive fruits/vegetables by
+          different producer/distributors from the county
+      - layout: left
+        border: weak
+        title: ING Tech
+        sub_title: Dev Engineer
+        caption: April 2016 - May 2019
+        link: https://ing.ro/ithub
+        description: |
+          As a Dev Engineer in ING Tech I have worked in two different departments on different projects:
+          
+          - Wholesale Banking department - built a REST API that was used to expose an application which was used for supply chain
+          finance logic and started rewriting parts of that application from Legacy code to Java/Spring. Technologies used:
+            - Java 8/Spring Framework
+            - Cucumber for functional testing, Junit, Mockito for unit/integration testing
+            - Gatling/Scala for performance testing
+  
+          - Security department - build APIs(REST, TCP, JMS) as a middle layer in a fraud detection flow. Also built components as means of
+          authentication/authorization for ING Group's several application as part of the main security tribe/flows. Technologies used:
+            - Java 8/Spring Framework/many Spring components
+            - Kafka message bus
+            - Cassandra db
+      - layout: left
+        border: weak
+        title: Mindit Software
+        sub_title: Junior Software Engineer
+        caption: May 2015 - March 2016
+        link: https://www.mindit.io/
+        description: |
+          Developed web applications for different clients and learnt the basics of Java/Spring and some frontend development with
+          whatever tools were "in fashion" back then(jQuery/CoffeeScript, SCSS, Grunt)
+      - layout: left
+        title: Fotonation
+        sub_title: Internship
+        caption: July 2015 - August 2015
+        description: |
+          I have participated at the intern ramp-up that Fotonation held for their interns. During these two months, we were taught by senior
+          employees the basics of image programming, through 4 different modules: image processing, photography, C code optimisation and
+          machine learning. 
+  - title: Education
+    layout: list
+    content:
+      - layout: middle
+        title: Faculty of Mathematics and Computer Science
+        sub_title: Bachelor's Degree
+        caption: October 2014 - May 2018
+      - layout: middle
+        title: Vasile Alecsandri National College
+        sub_title: High School
+        caption: September 2010 - May 2015
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title:  MHM Guitar Calendar
+        link: mhm-guitar-calendar.web.app
+        additional_links:
+          - title: Vlad-Olaru/mhm-guitar-calendar
+            icon: fab fa-github
+            url: https://github.com/Vlad-Olaru/mhm-guitar-calendar
+        quote: >
+          Calendar web app for booking guitar lessons
+        description: |
+          Web application for my guitar teacher's students to book time and for him to administrate his time/business schedule
+          and track the progress of the students. Booking my guitar lessons through my own app
+          is a bit weird but I'm very proud of it!
+          
+          Firebase + Angular
+      - layout: top-middle
+        border: weak
+        title: MHM Guitar
+        link: https://mhm-guitar.com
+        additional_links:
+          - title: Vlad-Olaru/mhm-guitar
+            icon: fab fa-github
+            url: https://github.com/Vlad-Olaru/mhm-guitar
+        quote: >
+          Business presentation website
+        description: |
+          Presentation website for a friend's business
+          
+          Tailwind CSS + plain JS
+      - layout: top-middle
+        border: weak
+        title: Cinemagic
+        additional_links:
+          - title: Vlad-Olaru/Cinemagic
+            icon: fab fa-github
+            url: https://github.com/Vlad-Olaru/Cinemagic
+        quote: >
+          University project
+        description: |
+          Application for booking tickets for movies, University project for Advanced Object Programming course.
+  
+          Uses Maven, Spring MVC, Spring Security, Spring Boot, Thymeleaf, Hibernate/JPA, MySql, Flyway.
+          There are several bugs/bad practices of which I was aware of and thought I would get back to it and fix but never
+          took the time, it's funny looking back at it how things evolved in years
+      - layout: top-middle
+        title: Foamenbot
+        additional_links:
+          - title: Vlad-Olaru/Foamenbot
+            icon: fab fa-github
+            url: https://github.com/Vlad-Olaru/Foamenbot/tree/develop
+        quote: >
+          University project
+        description: |
+          University project for "Software Development Methods". We created a web application where you can configure
+          products, make orders, book tables, request ingredients for current stocks and many more. We have used many
+          technologies such as Spring Security, Spring MVC Framework, Thymeleaf, Maven, Flyway.
+
+  - title: When I'm not working
+    layout: text
+    content: | 
+      - sports: I try to get to the gym as often as I can to compensate for all the time spent sitting
+      - music: I practice guitar and enjoy improving on this hobby
+      - fiction literature
+      - boardgames, video games, RPGs
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
