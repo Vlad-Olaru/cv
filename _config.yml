@@ -27,27 +27,47 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: |
-  I am an enthusiastic, young programmer who is passionate for this line of work. During the time I have been working as a
-  programmer, I have developed new skills and abilities, made new friends and learned a lot about myself. A fast-learner, eager to
-  learn even more and improve myself, I enjoy most of the life of a programmer. What I love most is actually seeing the project
+  I am an enthusiastic, young programmer who is passionate for this line of work. During the time I have been working in this 
+  domain, I have developed new skills and abilities, made new friends and learned a lot about myself. A fast-learner, eager to
+  learn even more and improve, I enjoy most of the life of a programmer. What I love most is actually seeing the project
   develop into a running application and seeing all your work taking a concrete shape, moving, functioning as intended.
-
+  
+  The technologies that I currently have the most experience working with are:
+  <mark>Kotlin</mark>
+  <mark>Java</mark>
+  <mark>Spring</mark>
+  <mark>Angular</mark>
 content:
   - title: Experience
     layout: list
     content:
       - layout: left
         border: weak
+        title: Arnia Software
+        sub_title: Software Engineer
+        caption: June 2022 - Present
+        link: https://www.arnia.com/
+        description: |
+          Working as an engineer developing different features for applications beineg used as energy procurement and consumption
+          for an energy company headquartered in Germany.
+
+          <mark>Kotlin</mark>
+          <mark>Spring boot</mark>
+          <mark>Angular</mark>
+          <mark>Azure</mark>
+      - layout: left
+        border: weak
         title: Ammeon/Intive
         sub_title: Software Engineer
-        caption: July 2021 - Present
+        caption: June 2021 - June 2022
         link: https://intive.com/
         description: |
-          Worked as a full-stack developer, in a team of ~7 developers, building on and maintaining
-          a huge portal application which integrates lots of different systems. Main technologies:
+          As a full-stack engineer I worked on maintaining/improving an internal portal which acted as an infrastructure
+          as a service for a multinational networking and telecommunications company. 
           
-          - Kotlin, Spring boot
-          - Angular
+          <mark>Kotlin</mark>
+          <mark>Spring boot</mark>
+          <mark>Angular</mark>
       - layout: left
         border: weak
         title: Connections Technologies
@@ -63,17 +83,21 @@ content:
           - Delivering a big microservices projects for a telecommunications company that handles several business flows, integrating
           the new microservices and platform with their existing ecosystem
           - A marketplace platform which we built from scratch based on the needs of people that are direct clients
+
+          <mark>Java</mark>
+          <mark>Spring boot</mark>
+          <mark>Angular</mark>
       - layout: left
         border: weak
         title: Connections Technologies
-        sub_title: Full-Stack Software Developer
+        sub_title: Full-Stack Software Engineer
         caption: May 2019 - July 2020
         link: https://connectionsconsult.ro
         description: |
           Working on different applications either in a team or by myself as a full-stack developer:
-          - platform for a telecommunications company that handles different business flows using Java, Spring, Angular and a
+          - platform for a telecommunications company that handles different business flows using <mark>Java</mark>, <mark>Spring</mark>, <mark>Angular</mark> and a
           microservices architecture
-          - facility management platform that handles ticketing cases, written in Kotlin, Spring, Angular
+          - facility management platform that handles ticketing cases, written in <mark>Kotlin</mark>, <mark>Spring</mark>, <mark>Angular</mark>
           - oauth2 server and endpoints to allow clients to more easily integrate with the romanian banks that have exposed their
           APIs based on the the PSD2 standard
           - an app for the government, which managed city hall's organization flows and helped schools receive fruits/vegetables by
@@ -89,15 +113,16 @@ content:
           
           - Wholesale Banking department - built a REST API that was used to expose an application which was used for supply chain
           finance logic and started rewriting parts of that application from Legacy code to Java/Spring. Technologies used:
-            - Java 8/Spring Framework
-            - Cucumber for functional testing, Junit, Mockito for unit/integration testing
-            - Gatling/Scala for performance testing
+            - <mark>Java 8</mark>
+            - <mark>Spring Framework</mark>
+            - <mark>Cucumber</mark> for functional testing, <mark>Junit</mark>, <mark>Mockito</mark> for unit/integration testing
+            - <mark>Gatling</mark>/<mark>Scala</mark> for performance testing
   
           - Security department - build APIs(REST, TCP, JMS) as a middle layer in a fraud detection flow. Also built components as means of
           authentication/authorization for ING Group's several application as part of the main security tribe/flows. Technologies used:
-            - Java 8/Spring Framework/many Spring components
-            - Kafka message bus
-            - Cassandra db
+            - <mark>Java 8</mark>/<mark>Spring Framework</mark>/many Spring components
+            - <mark>Kafka</mark> message bus
+            - <mark>Cassandra</mark> db
       - layout: left
         border: weak
         title: Mindit Software
@@ -105,8 +130,8 @@ content:
         caption: May 2015 - March 2016
         link: https://www.mindit.io/
         description: |
-          Developed web applications for different clients and learnt the basics of Java/Spring and some frontend development with
-          whatever tools were "in fashion" back then(jQuery/CoffeeScript, SCSS, Grunt)
+          Developed web applications for different clients and learnt the basics of <mark>Java</mark>/<mark>Spring</mark> and some frontend development with
+          whatever tools were "in fashion" back then(<mark>jQuery</mark>/<mark>CoffeeScript</mark>, <mark>SCSS</mark>, <mark>Grunt</mark>)
       - layout: left
         title: Fotonation
         sub_title: Internship
@@ -144,7 +169,7 @@ content:
           and track the progress of the students. Booking my guitar lessons through my own app
           is a bit weird but I'm very proud of it!
           
-          Firebase + Angular
+          <mark>Firebase</mark> + <mark>Angular</mark>
       - layout: top-middle
         border: weak
         title: MHM Guitar
@@ -158,7 +183,7 @@ content:
         description: |
           Presentation website for a friend's business
           
-          Tailwind CSS + plain JS
+          <mark>Tailwind CSS</mark> + plain <mark>JS</mark>
       - layout: top-middle
         border: weak
         title: Cinemagic
@@ -171,9 +196,10 @@ content:
         description: |
           Application for booking tickets for movies, University project for Advanced Object Programming course.
   
-          Uses Maven, Spring MVC, Spring Security, Spring Boot, Thymeleaf, Hibernate/JPA, MySql, Flyway.
-          There are several bugs/bad practices of which I was aware of and thought I would get back to it and fix but never
-          took the time, it's funny looking back at it how things evolved in years
+          Uses <mark>Maven</mark>, <mark>Spring MVC</mark>, <mark>Spring Security</mark>, <mark>Thymeleaf</mark>, 
+          <mark>Hibernate/JPA</mark>, <mark>MySql</mark>, <mark>Flyway</mark>. There are several bugs/bad practices of
+          which I was aware of and thought I would get back to it and fix but never took the time, it's funny looking
+          back at it how things evolved in years
       - layout: top-middle
         title: Foamenbot
         additional_links:
@@ -185,7 +211,8 @@ content:
         description: |
           University project for "Software Development Methods". We created a web application where you can configure
           products, make orders, book tables, request ingredients for current stocks and many more. We have used many
-          technologies such as Spring Security, Spring MVC Framework, Thymeleaf, Maven, Flyway.
+          technologies such as <mark>Spring Security</mark>, <mark>Spring MVC Framework</mark>, <mark>Thymeleaf</mark>,
+          <mark>Maven</mark>, <mark>Flyway</mark>.
 
   - title: When I'm not working
     layout: text
@@ -199,8 +226,6 @@ content:
 footer_show_references: false
 # references_title: References on request (Override references text)
 
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
