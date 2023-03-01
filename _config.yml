@@ -143,11 +143,11 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: middle
+      - layout: top-middle
         title: Faculty of Mathematics and Computer Science
         sub_title: Bachelor's Degree
         caption: October 2014 - May 2018
-      - layout: middle
+      - layout: top-middle
         title: Vasile Alecsandri National College
         sub_title: High School
         caption: September 2010 - May 2015
