@@ -30,7 +30,7 @@ about_content: |
   I am an enthusiastic, young programmer who is passionate for this line of work. During the time I have been working in this 
   domain, I have developed new skills and abilities, made new friends and learned a lot about myself. A fast-learner, eager to
   learn even more and improve, I enjoy most of the life of a programmer. What I love most is actually seeing the project
-  develop into a running application and seeing all your work taking a concrete shape, moving, functioning as intended.
+  develop into a running application and seeing all the work taking a concrete shape, moving, functioning as intended.
   
   The technologies that I currently have the most experience working with are:
   <mark>Kotlin</mark>
@@ -48,8 +48,8 @@ content:
         caption: June 2022 - Present
         link: https://www.arnia.com/
         description: |
-          Working as an engineer developing different features for applications beineg used as energy procurement and consumption
-          for an energy company headquartered in Germany.
+          Working as a full-stack software engineer developing different features for applications
+          that deal with energy procurement and consumption for an energy company headquartered in Germany.
 
           <mark>Kotlin</mark>
           <mark>Spring boot</mark>
@@ -62,8 +62,8 @@ content:
         caption: June 2021 - June 2022
         link: https://intive.com/
         description: |
-          As a full-stack engineer I worked on maintaining/improving an internal portal which acted as an infrastructure
-          as a service for a multinational networking and telecommunications company. 
+          As a full-stack engineer I worked on maintaining/improving an internal application portal which acted as an "infrastructure
+          as a service" for a multinational networking and telecommunications company. 
           
           <mark>Kotlin</mark>
           <mark>Spring boot</mark>
@@ -79,10 +79,10 @@ content:
           coding done as well during the day.
 
           The main projects I have been focusing on are:
-          
-          - Delivering a big microservices projects for a telecommunications company that handles several business flows, integrating
-          the new microservices and platform with their existing ecosystem
-          - A marketplace platform which we built from scratch based on the needs of people that are direct clients
+          - Delivering a big microservices project for a telecommunications company that handles several business flows, integrating
+          new microservices and platform with their existing ecosystem
+          - A platform built and designed from scratch by our team which put in contact companies that wanted to do POSM/marketing with
+          different freelancers who could accept and work on such "missions" 
 
           <mark>Java</mark>
           <mark>Spring boot</mark>
@@ -95,7 +95,7 @@ content:
         link: https://connectionsconsult.ro
         description: |
           Working on different applications either in a team or by myself as a full-stack developer:
-          - platform for a telecommunications company that handles different business flows using <mark>Java</mark>, <mark>Spring</mark>, <mark>Angular</mark> and a
+          - platform for a telecommunications company that handles different business flows using <mark>Java</mark>, <mark>Spring</mark>, <mark>Angular</mark>, on a
           microservices architecture
           - facility management platform that handles ticketing cases, written in <mark>Kotlin</mark>, <mark>Spring</mark>, <mark>Angular</mark>
           - oauth2 server and endpoints to allow clients to more easily integrate with the romanian banks that have exposed their
@@ -199,7 +199,7 @@ content:
           Uses <mark>Maven</mark>, <mark>Spring MVC</mark>, <mark>Spring Security</mark>, <mark>Thymeleaf</mark>, 
           <mark>Hibernate/JPA</mark>, <mark>MySql</mark>, <mark>Flyway</mark>. There are several bugs/bad practices of
           which I was aware of and thought I would get back to it and fix but never took the time, it's funny looking
-          back at it how things evolved in years
+          back at it how things evolved in years.
       - layout: top-middle
         title: Foamenbot
         additional_links:
