@@ -15,8 +15,8 @@ email: vladutandrei.olaru@gmail.com
 darkmode: never
 
 # Social links
-github_username:  Vlad-Olaru
 linkedin_username: Vlad Olaru
+github_username:  Vlad-Olaru
 
 additional_links:
 - title: Pdf Download
@@ -118,7 +118,7 @@ content:
             - <mark>Cucumber</mark> for functional testing, <mark>Junit</mark>, <mark>Mockito</mark> for unit/integration testing
             - <mark>Gatling</mark>/<mark>Scala</mark> for performance testing
   
-          - Security department - build APIs(REST, TCP, JMS) as a middle layer in a fraud detection flow. Also built components as means of
+          - Security department - build APIs (REST, TCP, JMS) as a middle layer in a fraud detection flow. Also built components as means of
           authentication/authorization for ING Group's several application as part of the main security tribe/flows. Technologies used:
             - <mark>Java 8</mark>/<mark>Spring Framework</mark>/many Spring components
             - <mark>Kafka</mark> message bus
@@ -131,7 +131,7 @@ content:
         link: https://www.mindit.io/
         description: |
           Developed web applications for different clients and learnt the basics of <mark>Java</mark>/<mark>Spring</mark> and some frontend development with
-          whatever tools were "in fashion" back then(<mark>jQuery</mark>/<mark>CoffeeScript</mark>, <mark>SCSS</mark>, <mark>Grunt</mark>)
+          whatever tools were "in fashion" back then (<mark>jQuery</mark>/<mark>CoffeeScript</mark>, <mark>SCSS</mark>, <mark>Grunt</mark>)
       - layout: left
         title: Fotonation
         sub_title: Internship
