@@ -27,12 +27,12 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: |
-  I am an enthusiastic, young programmer who is passionate for this line of work. During the time I have been working in this 
-  domain, I have developed new skills and abilities, made new friends and learned a lot about myself. A fast-learner, eager to
-  learn even more and improve, I enjoy most of the life of a programmer. What I love most is actually seeing the project
-  develop into a running application and seeing all the work taking a concrete shape, moving, functioning as intended.
+  I am a passionate and energetic software engineer who thrives in this field. Over the course of my journey in this domain,
+  I've cultivated new skills and abilities, forged friendships and gained valuable insights about myself. Fast-learner,
+  eager to improve, I enjoy the programming life-style. What truly excites me is witnessing a project evolve into a functional
+  application, watching all the hard work materialize into a tangible product.
   
-  The technologies that I currently have the most experience working with are:
+  Currently, my expertise primarily revolves around the following technologies:
   <mark>Kotlin</mark>
   <mark>Java</mark>
   <mark>Spring</mark>
