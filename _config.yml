@@ -217,10 +217,10 @@ content:
   - title: When I'm not working
     layout: text
     content: | 
-      - sports: I try to get to the gym as often as I can to compensate for all the time spent sitting
+      - sports: I try to get to the gym or to bouldering as often as I can to compensate for all the time spent sitting
       - music: I practice guitar and enjoy improving on this hobby
       - fiction literature
-      - boardgames, video games, RPGs
+      - boardgames, video games, RPGs, miniature painting
 
 # Footer
 footer_show_references: false
