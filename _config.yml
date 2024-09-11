@@ -43,9 +43,23 @@ content:
     content:
       - layout: left
         border: weak
+        title: Aeris
+        sub_title: Software Engineer
+        caption: January 2024 - Present
+        link: https://www.aeris.com/
+        description: |
+          Getting to the finishing line a huge microservice-architecture app that will be used by a multinational 
+          automobile manufacturer to connect their vehicles
+          
+          <mark>Java</mark>
+          <mark>Spring</mark>
+          <mark>Kubernetes</mark>
+          <mark>GCP</mark>
+      - layout: left
+        border: weak
         title: Arnia Software
         sub_title: Software Engineer
-        caption: June 2022 - Present
+        caption: June 2022 - January 2024
         link: https://www.arnia.com/
         description: |
           Working as a full-stack software engineer developing different features for applications
@@ -154,6 +168,18 @@ content:
   - title: Projects
     layout: list
     content:
+      - layout: top-middle
+        border: weak
+        title: Pandora's Food
+        link: https://pandoras-food.web.app/
+        additional_links:
+          - title: Vlad-Olaru/pandoras-food
+            icon: fab fa-github
+            url: https://github.com/Vlad-Olaru/pandoras-food
+        quote: >
+          Restaurant's weekly menu mini web-app
+        description: |
+          <mark>Firebase</mark> + <mark>Tailwind</mark>
       - layout: top-middle
         border: weak
         title:  MHM Guitar Calendar
