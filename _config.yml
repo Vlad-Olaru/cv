@@ -27,16 +27,11 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: |
-  I am a passionate and energetic software engineer who thrives in this field. Over the course of my journey in this domain,
-  I've cultivated new skills and abilities, forged friendships and gained valuable insights about myself. Fast-learner,
-  eager to improve, I enjoy the programming life-style. What truly excites me is witnessing a project evolve into a functional
-  application, watching all the hard work materialize into a tangible product.
-  
-  Currently, my expertise primarily revolves around the following technologies:
-  <mark>Kotlin</mark>
-  <mark>Java</mark>
-  <mark>Spring</mark>
-  <mark>Angular</mark>
+  Software engineer with 10 years of experience building robust backend systems and full-stack applications.
+  Skilled in <mark>Java</mark>, <mark>Kotlin</mark>, <mark>Angular</mark> and <mark>Spring framework</mark>, 
+  with expertise in microservices and cloud platforms (GCP, Azure).
+  A collaborative and adaptable developer who enjoys solving complex problems, mentoring teammates
+  and turning ideas into reliable, user-focused software.
 content:
   - title: Experience
     layout: list
@@ -45,7 +40,7 @@ content:
         border: weak
         title: Aeris
         sub_title: Software Engineer
-        caption: January 2024 - Present
+        caption: January 2024 - January 2025
         link: https://www.aeris.com/
         description: |
           Getting to the finishing line a huge microservice-architecture app that will be used by a multinational 
@@ -126,17 +121,16 @@ content:
           As a Dev Engineer in ING Tech I have worked in two different departments on different projects:
           
           - Wholesale Banking department - built a REST API that was used to expose an application which was used for supply chain
-          finance logic and started rewriting parts of that application from Legacy code to Java/Spring. Technologies used:
-            - <mark>Java 8</mark>
-            - <mark>Spring Framework</mark>
-            - <mark>Cucumber</mark> for functional testing, <mark>Junit</mark>, <mark>Mockito</mark> for unit/integration testing
-            - <mark>Gatling</mark>/<mark>Scala</mark> for performance testing
-  
+          finance logic and started rewriting parts of that application from Legacy code to Java/Spring
           - Security department - build APIs (REST, TCP, JMS) as a middle layer in a fraud detection flow. Also built components as means of
-          authentication/authorization for ING Group's several application as part of the main security tribe/flows. Technologies used:
-            - <mark>Java 8</mark>/<mark>Spring Framework</mark>/many Spring components
-            - <mark>Kafka</mark> message bus
-            - <mark>Cassandra</mark> db
+          authentication/authorization for ING Group's several application as part of the main security tribe/flows
+          
+          <mark>Java</mark>
+          <mark>Kotlin</mark>
+          <mark>Spring</mark>
+          <mark>Cucumber</mark>
+          <mark>Kafka</mark>
+          <mark>Gatling/Scala</mark>
       - layout: left
         border: weak
         title: Mindit Software
@@ -170,18 +164,6 @@ content:
     content:
       - layout: top-middle
         border: weak
-        title: Pandora's Food
-        link: https://pandoras-food.web.app/
-        additional_links:
-          - title: Vlad-Olaru/pandoras-food
-            icon: fab fa-github
-            url: https://github.com/Vlad-Olaru/pandoras-food
-        quote: >
-          Restaurant's weekly menu mini web-app
-        description: |
-          <mark>Firebase</mark> + <mark>Tailwind</mark>
-      - layout: top-middle
-        border: weak
         title:  MHM Guitar Calendar
         link: mhm-guitar-calendar.web.app
         additional_links:
@@ -192,8 +174,8 @@ content:
           Calendar web app for booking guitar lessons
         description: |
           Web application for my guitar teacher's students to book time and for him to administrate his time/business schedule
-          and track the progress of the students. Booking my guitar lessons through my own app
-          is a bit weird but I'm very proud of it!
+          and track the progress of the students. Reached 200 users this year! Booking my guitar lessons through my own app
+          is a bit weird but I'm very proud of it! Currently not live unfortunately, guitar teacher is on a break.
           
           <mark>Firebase</mark> + <mark>Angular</mark>
       - layout: top-middle
@@ -210,6 +192,19 @@ content:
           Presentation website for a friend's business
           
           <mark>Tailwind CSS</mark> + plain <mark>JS</mark>
+      - layout: top-middle
+        border: weak
+        title: Pandora's Food
+        link: https://github.com/Vlad-Olaru/pandoras-food
+        additional_links:
+          - title: Vlad-Olaru/pandoras-food
+            icon: fab fa-github
+            url: https://github.com/Vlad-Olaru/pandoras-food
+        quote: >
+          Restaurant's weekly menu mini web-app
+        description: |
+          Currently not live since the restaurant closed down.
+          <mark>Firebase</mark> + <mark>Tailwind</mark>
       - layout: top-middle
         border: weak
         title: Cinemagic
@@ -239,7 +234,18 @@ content:
           products, make orders, book tables, request ingredients for current stocks and many more. We have used many
           technologies such as <mark>Spring Security</mark>, <mark>Spring MVC Framework</mark>, <mark>Thymeleaf</mark>,
           <mark>Maven</mark>, <mark>Flyway</mark>.
-
+  - title: Languages
+    layout: list
+    content:
+      - layout: top-middle
+        title: Romanian
+        caption: native
+      - layout: top-middle
+        title: English
+        caption: Certified C1
+      - layout: top-middle
+        title: German
+        caption: Self-assessed B1-B2
   - title: When I'm not working
     layout: text
     content: | 
