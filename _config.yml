@@ -43,9 +43,13 @@ content:
         caption: January 2024 - January 2025
         link: https://www.aeris.com/
         description: |
-          Getting to the finishing line a huge microservice-architecture app that will be used by a multinational 
-          automobile manufacturer to connect their vehicles
-          
+          Contributing to the completion of a large microservice-based application for a global automobile manufacturer. This platform integrates
+          connected vehicles with the manufacturer’s systems, enabling remote commands, map updates, and data synchronization. Among
+          other things, I worked on:
+            - Handling secure data ingestion for vehicles, processing encrypted zip files to enable certificate-based secure communication
+            - Synchronizing databases across multiple regions to maintain consistency and availability
+            - Managing synchronous and asynchronous communication for data flow coordination between services
+
           <mark>Java</mark>
           <mark>Spring</mark>
           <mark>Kubernetes</mark>
@@ -57,8 +61,10 @@ content:
         caption: June 2022 - January 2024
         link: https://www.arnia.com/
         description: |
-          Working as a full-stack software engineer developing different features for applications
-          that deal with energy procurement and consumption for an energy company headquartered in Germany.
+          Worked on a suite of B2B applications for an energy company in Germany, developing features for energy trading, consumption
+          tracking, and data analysis. Key work involved:
+            - Creating reliable data flows for energy-related information and core business logic
+            - Collaborating on API designs to ensure smooth integration within enterprise systems
 
           <mark>Kotlin</mark>
           <mark>Spring boot</mark>
