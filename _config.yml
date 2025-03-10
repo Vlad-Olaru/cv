@@ -181,7 +181,7 @@ content:
         description: |
           Web application for my guitar teacher's students to book time and for him to administrate his time/business schedule
           and track the progress of the students. Reached 200 users this year! Booking my guitar lessons through my own app
-          is a bit weird but I'm very proud of it! Currently not live unfortunately, guitar teacher is on a break.
+          is a bit weird but I'm very proud of it!
           
           <mark>Firebase</mark> + <mark>Angular</mark>
       - layout: top-middle
